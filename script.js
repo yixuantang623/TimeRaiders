@@ -67,21 +67,21 @@ function debounce(func, delay) {
 }
 
 $(".item1").click(function () {
-  window.location.hash = "#header";
+  document.location.hash = "#header";
   
 });
 
 $(".item2").click(function () {
-  window.location.hash = "#inf";
+  document.location.hash = "#inf";
   
 });
 
 $(".item3").click(function () {
-  window.location.hash = "#award";
+  document.location.hash = "#award";
   
 });
 
 $(".item4").click(function () {
-  window.location.hash = "#notice";
+  document.location.hash = "#notice";
   
 });
